@@ -35,4 +35,4 @@ jobs:
      - name: terraform deployment
        run: cd devops/ && terraform apply -var="tag=${{ env.RELEASE_VERSION }}"  -auto-approve
 
-     
+     #
